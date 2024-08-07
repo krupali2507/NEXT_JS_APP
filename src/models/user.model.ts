@@ -54,4 +54,4 @@ const UserModel =
   (mongoose.models.User as mongoose.Model<UserInterface>) ||
   mongoose.model<UserInterface>("User", UserSchema);
 
-export default { UserModel };
+export default UserModel;
